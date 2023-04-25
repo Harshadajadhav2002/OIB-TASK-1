@@ -1,0 +1,13 @@
+var result = document.getElementById("result");
+
+function insert(value) {
+	result.value += value;
+}
+
+function clearResult() {
+	result.value = "";
+}
+
+function calculate() {
+	result.value = eval(result.value);
+}

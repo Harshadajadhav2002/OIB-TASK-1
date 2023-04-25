@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+  }
+  
+  body {
+	background-image: url('https://wallpapercave.com/dwp1x/P4LP9H0.jpg');
+	background-color: #bbdaf7;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .calculator {
+	width: 300px;
+	margin: 50px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(211, 158, 89, 0.2);
+  }
+  
+  .display {
+	background-color: #a67d62;
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+	text-align: right;
+  }
+  
+  .input {
+	width: 100%;
+	border: none;
+	font-size: 24px;
+  }
+  
+  .buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #e9c67b;
+	border-radius: 0 0 10px 10px;
+	padding: 10px;
+  }
+  
+  button {
+	width: 60px;
+	height: 60px;
+	font-size: 24px;
+	background-color: #ede7e7;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+  }
+  
+  .operator {
+	background-color: #bbdaf7;
+  }
+  
+  .equal {
+	background-color: #f2f2f2;
+	color: #989220;
+  }
+  
+  button:hover {
+	background-color: #614646;
+  }
+  .header{
+	text-align: center;
+	color: #fffcfc;
+  }
+  
